@@ -42,14 +42,13 @@
 
 | Plik/Folder         | Opis                                      |
 |---------------------|-------------------------------------------|
-| `dist/Uchwalomat.PDF.exe` | Gotowy program do uruchomienia         |
+| `dist/Uchwalomat.PDF.exe` | Gotowy program do uruchomienia      |
 | `uchwalomatgui.py`  | Kod źródłowy programu (Python)            |
-| `icon.ico`          | Ikona programu                            |
 | `README.md`         | Ten plik z instrukcją                     |
 
 ## Autor
 
-Wygenerowano przy pomocy **UchwałoMat.PDF**, projekt – Jakub Budzich
+budziun 2025 - Jakub Budzich
 
 ## Skrót (TL;DR)
 
