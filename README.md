@@ -6,7 +6,7 @@
 
 **Uchwalomat.PDF** to narzędzie, które automatycznie odczytuje tytuły uchwał oraz generuje tytuły raportów z plików PDF znajdujących się w wybranym folderze. Program jest przeznaczony dla urzędników, pracowników biur rady oraz wszystkich, którzy muszą szybko zebrać tytuły wielu dokumentów bez żmudnego otwierania każdego pliku.
 
-- Obsługuje zarówno uchwały ktore są oznaczone numer.pdf (np. `100.pdf`, `101.pdf`), jak i raporty (np. `raport_14_sesja.pdf`).
+- Obsługuje zarówno uchwały ktore są oznaczone numer.pdf (np. `100.pdf`, `101.pdf`), jak i raporty zawierajace w nazwie slowo `raport` (np. `raport_14_sesja.pdf`).
 - Wyniki są zapisywane w czytelnym pliku tekstowym.
 - Program posiada prosty interfejs graficzny (GUI) – nie wymaga znajomości programowania.
 - Program w oparciu o pisma ustaw urzędu gmina https://www.bip.gruta.akcessnet.net/index.php?idg=3&id=15&x=60 BRAK GWARANCJI DZIAŁANIA NA INNYCH DOKUMENTACH NIŻ URZĘDU GRUTA
