@@ -22,7 +22,7 @@
 1. **Wybierz folder z plikami PDF** (uchwały, zarządzenia, raporty)
 2. Program rozpoznaje typ każdego dokumentu oraz wyciąga i formatuje tytuł
 3. Wynik zapisuje się do pliku `wyniki.txt` w wybranym katalogu
-4. Jeśli plik PDF jest skanem (obrazem), program używa OCR (Tesseract) do rozpoznania tekstu
+4. Jeśli plik PDF jest skanem (obrazem), program używa OCR (Tesseract) do rozpoznania tekstu (brak 100% pewności co do poprawnego odczytania tytułu)
 
 ---
 
@@ -45,7 +45,7 @@
 
 Uchwalomat.PDF/
 ├── main.py # Główny plik programu
-├── Tesseract-OCR/ # Folder z dołączonym Tesseract (dla OCR)
+├── Tesseract-OCR/ # Folder z dołączonym Tesseract (dla OCR) - skompresowany i dolączony w pliku .exe
 ├── dist/ # Stara wersja bez OCR
 ├── requirements.txt # Minimalne zależności
 └── ...
@@ -69,18 +69,6 @@ Uchwalomat.PDF/
 2. Rozpakuj archiwum ZIP
 3. Uruchom `UchwaloMat.exe`
 4. Wskaż folder z plikami PDF i kliknij „Generuj raport”
-
-### Wersja źródłowa
-
-1. Sklonuj repozytorium
-2. Zainstaluj zależności:
-    ```
-    pip install -r requirements.txt
-    ```
-3. Uruchom:
-    ```
-    python main.py
-    ```
 
 ---
 
